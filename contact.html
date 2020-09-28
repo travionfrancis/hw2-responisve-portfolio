@@ -4,8 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Page</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
   </head>
   <body>
-    <h1>Contact Page</h1>
+    <header>
+      <h1>My Contacts</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"> Home Page </a>
+          </li>
+          <li>
+            <a href="portfolio.html"> My Portfolio </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <h3>Contact</h3>
+      <hr />
+      <form>
+        <label for="name">Name</label><br />
+        <input type="text" id="name" placeholder="Name" size="40" />
+        <br />
+        <br />
+        <label for="email">Email</label> <br />
+        <input type="text" id="Email" placeholder="Email" size="40" />
+        <br />
+        <br />
+        <label for="message">Message</label>
+        <br />
+
+        <form>
+          <textarea
+            name="message"
+            rows="10"
+            cols="40"
+            placeholder="Message"
+          ></textarea>
+          <br /><br />
+          <input type="submit" id="submit" />
+        </form>
+      </form>
+    </article>
   </body>
 </html>

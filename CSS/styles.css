@@ -1,3 +1,7 @@
+body {
+  line-height: 1.5;
+}
+
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -26,4 +30,20 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
+}
+
+#email {
+}
+
+#message {
+}
+
+#submit {
+  color: darkcyan;
+  background-color: #2a607c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
