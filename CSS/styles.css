@@ -1,16 +1,26 @@
+html,
 body {
   line-height: 1.5;
+  height: 100%;
+  margin: 0;
+  background-image: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/cork-900x762.jpg);
 }
 
-footer {
+h1 {
+  color: #70adb5;
+}
+.footer {
   text-align: center;
   font-weight: bold;
-}
-
-.grid-container {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  position: absolute;
   background-color: #2a607c;
   color: azure;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -22,4 +32,14 @@ footer {
   padding: 16px 32px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.footer,
+.push {
+  height: 50px;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
 }
