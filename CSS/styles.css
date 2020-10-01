@@ -6,6 +6,32 @@ body {
   background-image: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/cork-900x762.jpg);
 }
 
+.col-md-8 {
+  margin-bottom: 82px;
+}
+
 h1 {
   color: #70adb5;
+}
+
+.footer2 {
+  background: brown;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+  max-height: 30px;
+}
+
+footer {
+  background: brown;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+  max-height: 30px;
+}
+
+.pfooter {
+  text-align: center;
 }
